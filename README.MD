@@ -11,8 +11,8 @@ source venv/bin/activate
 pip install requirements.txt
 
 ## run application run
-python3 index.py
+python3 main.py
 
-this is microservices that depends on other microservices in the repo
+this is a service for a microservices that routes requests to other services
 namely - bid-auction-microservice
        - bid-user-microservice
